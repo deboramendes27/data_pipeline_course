@@ -74,7 +74,7 @@ key_mapping = {'Nome do Item': 'Nome do Produto',
                 'Data da Venda': 'Data da Venda'}
 key_mapping
 
-# Combining the data into a single list of dictionaries
+# Combining the data into a single list of lists and saving it to a CSV file
 new_data_csv = treating_data(data_csv, key_mapping)
 
 combining_and_saving_data(final_path,data_json, new_data_csv)
